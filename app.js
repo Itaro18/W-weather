@@ -32,11 +32,11 @@ const updateUi= (data)=>{
 
     let timeSrc=null;
     if(weather.IsDayTime){
-        timeSrc="images/day.jpg";
+        timeSrc="day.jpg";
        
     }
     else{
-        timeSrc="images/night.png"
+        timeSrc="night.png"
     }
 
     time.setAttribute("src",timeSrc);
